@@ -122,6 +122,14 @@
   margin-bottom: 1rem;
 }
 
+/* Lucide icon specific styles */
+.benefit-card i[data-lucide] {
+  width: 3rem;
+  height: 3rem;
+  stroke: var(--accent-color);
+  stroke-width: 1.5;
+}
+
 .benefit-card h3 {
   margin-bottom: 1rem;
   font-size: 1.5rem;
