@@ -125,12 +125,14 @@
 
 /* Lucide icon specific styles */
 .benefit-card i[data-lucide] {
-  width: 3rem;
-  height: 3rem;
+  width: 48px;
+  height: 48px;
   stroke: var(--accent-color);
   stroke-width: 2;
   fill: var(--accent-color);
-  transform: scale(1.2); /* Make it slightly larger to match Font Awesome */
+  transform: scale(1.5);
+  display: inline-block;
+  margin-bottom: 1rem;
 }
 
 .benefit-card h3 {
