@@ -120,6 +120,7 @@
   font-size: 3rem;
   color: var(--accent-color);
   margin-bottom: 1rem;
+  display: inline-block;
 }
 
 /* Lucide icon specific styles */
@@ -127,7 +128,9 @@
   width: 3rem;
   height: 3rem;
   stroke: var(--accent-color);
-  stroke-width: 1.5;
+  stroke-width: 2;
+  fill: var(--accent-color);
+  transform: scale(1.2); /* Make it slightly larger to match Font Awesome */
 }
 
 .benefit-card h3 {
