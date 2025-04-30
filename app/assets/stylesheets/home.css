@@ -120,19 +120,6 @@
   font-size: 3rem;
   color: var(--accent-color);
   margin-bottom: 1rem;
-  display: inline-block;
-}
-
-/* Lucide icon specific styles */
-.benefit-card i[data-lucide] {
-  width: 48px;
-  height: 48px;
-  stroke: var(--accent-color);
-  stroke-width: 2;
-  fill: var(--accent-color);
-  transform: scale(1.5);
-  display: inline-block;
-  margin-bottom: 1rem;
 }
 
 .benefit-card h3 {
